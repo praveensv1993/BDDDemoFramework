@@ -47,10 +47,10 @@ public class LandingPage {
 	@And("^Add (.+) items selected product to the cart$")
 	public void addItemsToCart(Integer qty)
 	{
-		System.out.println("____________________");
+		//System.out.println("____________________");
 		testContextSetup.pageObjectManager.landingPagePOM.addQty(qty);
 		testContextSetup.pageObjectManager.landingPagePOM.addToCart();
-		System.out.println("____________________Complete______________________________________");
+		//System.out.println("____________________Complete______________________________________");
 	}
 	
 }
