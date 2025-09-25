@@ -18,7 +18,7 @@ public class CheckOutPagePOM {
 	
 	public void checkoutPage() throws InterruptedException
 	{
-		System.out.println("__________________Checkout_____________");
+		
 		Thread.sleep(1000);
 		driver.findElement(cart).click();
 		Thread.sleep(1000);
